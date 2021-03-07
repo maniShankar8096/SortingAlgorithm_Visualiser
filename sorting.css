@@ -1,0 +1,37 @@
+.page-container {
+  background-color: #343a40;
+  height: 100vh;
+}
+.main-heading {
+  text-align: center;
+  color: #fff;
+}
+#newArrayBtn {
+  background: transparent;
+  color: #1e919a;
+  border: 2px solid #1e919a;
+  font-weight: 500;
+}
+.my-btn {
+  background: transparent;
+  color: #2972ae !important;
+  border: 2px solid #2972ae !important;
+  margin-right: 1rem;
+  font-weight: 500 !important;
+}
+.btn:hover {
+  background-color: #fff !important;
+}
+
+/* media queries */
+@media (max-height: 576px) {
+  .page-container {
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .my-btn {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+} ;
