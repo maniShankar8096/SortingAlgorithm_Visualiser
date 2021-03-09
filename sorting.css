@@ -1,6 +1,7 @@
 .page-container {
   background-color: #343a40;
   height: 100vh;
+  padding-bottom: 3rem;
 }
 .main-heading {
   text-align: center;
@@ -22,6 +23,18 @@
 .btn:hover {
   background-color: #fff !important;
 }
+.bars-container {
+  margin: 1rem 4rem 0rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 2px solid #fff;
+}
+.bars {
+  margin: 10px 5px 0 0;
+  width: 20px;
+  background-color: orangered;
+}
 
 /* media queries */
 @media (max-height: 576px) {
@@ -33,5 +46,8 @@
   .my-btn {
     margin: 0 auto;
     margin-bottom: 1rem;
+  }
+  .bars {
+    width: 10px;
   }
 } ;
