@@ -1,7 +1,7 @@
 .page-container {
   background-color: #343a40;
   height: 100vh;
-  padding-bottom: 3rem;
+  padding: 1rem 0.2rem 3rem 0;
 }
 .main-heading {
   text-align: center;
